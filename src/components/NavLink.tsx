@@ -9,7 +9,7 @@ export const NavLink: React.FC<NavLinkProps> = ({ href, children }) => {
   return (
     <a
       href={href}
-      className="text-white hover:text-secondary transition-colors duration-200"
+      className="text-[#080808] text-base font-semibold font-['Roboto'] "
     >
       {children}
     </a>
