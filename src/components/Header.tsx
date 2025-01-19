@@ -8,7 +8,7 @@ import chevronright from "../../public/chevronright.svg";
 export const Header: React.FC = () => {
   return (
     <header
-      className="text-white top-0 z-50"
+      className="text-white top-0 z-50  max-w-7xl mx-auto  "
       // style={{ padding: '20px 0px 60px 315px' }}
     >
     <div className="flex w-[1291px] items-center gap-[291px] pt-5 pb-[60px] px-0 relative">

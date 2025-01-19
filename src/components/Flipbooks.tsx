@@ -5,8 +5,9 @@ import arrowup from "../../public/arrowup.svg";
 
 export const Flipbooks: React.FC = () => {
   return (
-    <section id="flipbooks">
-      <div className="w-[1290px] h-[372px] pt-[120px] pb-20 flex-col justify-start items-center gap-10 inline-flex">
+    <section id="flipbooks"  className="  bg-[#f2f2f2] ">
+      <div className="  max-w-7xl mx-auto  grid grid-cols-1   ">
+      <div className="w-[1290px] h-[372px] pt-[120px] pb-20 flex-col justify-start items-center gap-10 inline-flex  ">
     <div className="self-stretch text-center text-[#080808] text-6xl font-black font-['Urbanist'] leading-[70px]">Sharing Flipbooks with Direct Links</div>
     <div className="w-[594px] text-center text-[#080808] text-lg font-normal font-['Roboto'] leading-[31px]">It’s so easy. Just copy the link, send it through email or any messenger, and let your readers open it with a single click.</div>
   </div>
@@ -38,7 +39,7 @@ export const Flipbooks: React.FC = () => {
       </div>
     </div>
   </div>
-</div>
+</div></div>
 
     </section>
   );
