@@ -1,37 +1,29 @@
-import React from 'react';
-import image1 from '../images/mobile1.webp';
+import React from "react";
+import image from "../../public/image.png";
 
 export const Hero: React.FC = () => {
   return (
-    <section className="pt-24 pb-12 bg-blue-700 text-white">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            You will see the Truth with your own eyes and earshot
-            </h2>
-            
-            <p className="text-xl text-secondary mb-8">
-              Discover what you're really seeing
-            </p>
-            <div className="flex flex-col md:flex-row items-center justify-center gap-12">
-            <a href="https://play.google.com/store/apps/details?id=inu.night.humanAI" target="_blank" rel="noopener noreferrer">
-            <div className="flex w-48 h-14 bg-black text-white rounded-lg items-center justify-center"><div className="mr-3"><svg viewBox="30 336.7 120.9 129.2" width="30" height="40"> <path fill="#FFD400" d="M119.2,421.2c15.3-8.4,27-14.8,28-15.3c3.2-1.7,6.5-6.2,0-9.7  c-2.1-1.1-13.4-7.3-28-15.3l-20.1,20.2L119.2,421.2z"></path><path fill="#FF3333" d="M99.1,401.1l-64.2,64.7c1.5,0.2,3.2-0.2,5.2-1.3  c4.2-2.3,48.8-26.7,79.1-43.3L99.1,401.1L99.1,401.1z"></path><path fill="#48FF48" d="M99.1,401.1l20.1-20.2c0,0-74.6-40.7-79.1-43.1  c-1.7-1-3.6-1.3-5.3-1L99.1,401.1z"></path><path fill="#3BCCFF" d="M99.1,401.1l-64.3-64.3c-2.6,0.6-4.8,2.9-4.8,7.6  c0,7.5,0,107.5,0,113.8c0,4.3,1.7,7.4,4.9,7.7L99.1,401.1z"></path></svg></div><div><div className="text-xs">GET IT ON</div><div className="text-xl font-semibold font-sans -mt-1">Google Play</div></div>
-            </div></a>
-          </div></div>
-    
-          <div className="md:w-1/2">
-            <div className="relative w-64 h-[500px] mx-auto">
-              <div className="absolute inset-0  rounded-3xl transform  animate-shuffle rotate-3 "></div>
-              <img
-                src= {image1}
-                alt="App mockup"
-                className="absolute inset-0 w-full h-full object-cover rounded-2xl animate-shuffle rotate-3 "
-              />
-            </div>
-          </div>
+    <section className="flex ">
+      <div className="flex w-[1290px] items-center justify-between pt-0 pb-[60px] px-0 relative">
+      <div className="flex flex-col w-[627px] items-start gap-10 relative">
+        <div className="self-stretch mt-[-1.00px] [font-family:'Urbanist-Black',Helvetica] font-black text-6xl leading-[70px] relative text-[#080808] tracking-[0]">
+          Sharing Your Flipbooks
         </div>
+
+        <p className="w-[518px] [font-family:'Roboto-Regular',Helvetica] font-normal text-lg leading-[31px] relative text-[#080808] tracking-[0]">
+          Sharing your digital publications is easy with Publuu. Whether it’s a
+          portfolio, a client catalog, or an online magazine, we give you the
+          tools to make it quick and simple. No matter the purpose, we&#39;ve
+          got everything you need
+        </p>
       </div>
+
+      <img
+        className="relative w-[627px] h-[597px] object-cover"
+        alt="Image"
+        src={image}
+      />
+    </div>
     </section>
   );
 };
