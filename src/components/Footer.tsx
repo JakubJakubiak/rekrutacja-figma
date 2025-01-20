@@ -39,16 +39,16 @@ export const Footer: React.FC = () => {
     <div className="self-stretch justify-start items-center gap-[203px] inline-flex">
       <div className="opacity-40 justify-start items-center gap-2.5 flex">
         <div className="w-6 h-6 relative  overflow-hidden" />
-        <div className="justify-start items-center gap-[5px] flex">
+        {/* <div className="justify-start items-center gap-[5px] flex">
           <div className="text-white text-base font-bold font-['Urbanist'] uppercase leading-[30px]">English</div>
           <div className="w-6 h-6 relative origin-top-left rotate-90  overflow-hidden" />
-        </div>
+        </div> */}
       </div>
       <div className="w-[501px] flex-col justify-start items-center inline-flex">
         <div className="self-stretch opacity-40 text-center text-white/50 text-sm font-bold font-['Urbanist'] uppercase leading-[30px]">Convert your PDF into HTML5 Online flipbook with PAGE FLIP EFFECT.
         </div>
         <div className="self-stretch opacity-40 text-center text-white/50 text-sm font-bold font-['Urbanist'] uppercase leading-[30px]">All-in-one Flipbook Maker</div>
-      </div>
+      </div> <div className="text-white text-base font-bold font-['Urbanist'] uppercase leading-[30px]">English</div>
       <div className="opacity-40 justify-start items-center gap-[15px] flex">
         <div className="text-white text-base font-bold font-['Urbanist'] uppercase leading-[30px]">Follow Us:</div>
         <div className="text-white text-base font-bold font-['Urbanist'] leading-[30px]">Facebook  |  Linkedin</div>

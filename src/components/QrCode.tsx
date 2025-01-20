@@ -1,9 +1,7 @@
 import React from "react";
 import image from "../../public/image.png";
 
-import publuu_logo_v2 from "../../public/publuu_logo_v2.svg";
-import Vector from "../../public/Vector.svg";
-import chevronright from "../../public/chevronright.svg";
+
 import book from "../../public/book.png";
 import imageQr from "../../public/imageQr.png";
 import Website from "../../public/Website.png";
@@ -23,13 +21,10 @@ export const QrCode: React.FC = () => {
   <div data-layer="sharing_your_flipbooks" className="SharingYourFlipbooks w-[1920px] h-[7609px] relative bg-white  overflow-hidden">
   <div data-layer="Frame 588" className="Frame588 w-[1070px] h-[60px] pl-[30px] pr-[15px] py-[13px] left-[425px] top-[3016px] absolute bg-[#e8e8e8] rounded-tl-[10px] rounded-tr-[10px] flex-col justify-center items-start gap-2.5 inline-flex">
   </div> 
- 
-    
-   
 
   
-  <div data-layer="Frame 448" className="Frame448 h-[372px] pt-[120px] pb-20 left-[315px] top-[786px] absolute flex-col justify-start items-center gap-10 inline-flex">
-    <div data-layer="Sharing Flipbooks with Direct Links" className="SharingFlipbooksWithDirectLinks self-stretch text-center text-[#080808] text-6xl font-black font-['Urbanist'] leading-[70px]">Sharing Flipbooks with Direct Links</div>
+  <div data-layer="Frame 448" className="Frame448 h-[372px] pt-[120px] pb-20 left-[315px] top-[786px] absolute flex-col justify-start items-center gap-10 inline-flex ">
+    <div data-layer="Sharing Flipbooks with Direct Links" className="SharingFlipbooksWithDirectLinks self-stretch text-center text-[#080808] text-6xl font-black font-['Urbanist'] leading-[70px] ">Sharing Flipbooks with Direct Links</div>
     <div data-layer="It’s so easy. Just copy the link, send it through email or any messenger, and let your readers open it with a single click." className="ItSSoEasyJustCopyTheLinkSendItThroughEmailOrAnyMessengerAndLetYourReadersOpenItWithASingleClick w-[594px] text-center text-[#080808] text-lg font-normal font-['Roboto'] leading-[31px]">It’s so easy. Just copy the link, send it through email or any messenger, and let your readers open it with a single click.</div>
   </div>
   <div data-layer="Frame 584" className="Frame584 w-[850px] h-20 pl-[30px] pr-[15px] py-[13px] left-[535px] top-[1158px] absolute rounded-[10px] border border-[#c0c0c0] flex-col justify-center items-start gap-2.5 inline-flex">
@@ -75,19 +70,13 @@ export const QrCode: React.FC = () => {
     {image} />
   </div>
   <img data-layer="share1 1" className="Share11 w-[841px] h-[445px] left-[539px] top-[1273px] absolute" src={book}/>
-  <div data-layer="Frame 577" className="Frame577 w-[289px] h-20 pl-[15px] pr-5 py-[15px] left-[1206px] top-[1495px] absolute bg-white rounded-[10px] shadow-[0px_10px_10px_0px_rgba(0,0,0,0.25)] flex-col justify-center items-center gap-2.5 inline-flex">
+  <div data-layer="Frame 577" className="Frame577 w-[300px] h-20 pl-[15px] pr-5 py-[15px] left-[1206px] top-[1495px] absolute bg-white rounded-[10px] shadow-[0px_10px_10px_0px_rgba(0,0,0,0.25)] flex-col justify-center items-center gap-2.5 inline-flex">
     <div data-layer="Frame 574" className="Frame574 justify-start items-center  inline-flex">
     <img className="w-10 h-10" src={sharevariantoutline} />
       <div data-layer="share-variant-outline" className="ShareVariantOutline w-10 h-10 relative  overflow-hidden" />
       <div data-layer="Share it anywhere and anytime you like!" className="ShareItAnywhereAndAnytimeYouLike text-[#080808] text-xl font-semibold font-['Roboto']">Share it anywhere<br/>and anytime you like!</div>
     </div>
   </div>
-
-  
-
-
-
-
 
 
 
@@ -97,6 +86,7 @@ export const QrCode: React.FC = () => {
       <img className="w-10 h-10" src={timeroffoutline} />
       <div data-layer="No downloads No waiting!" className="NoDownloadsNoWaiting text-[#080808] text-xl font-semibold font-['Roboto']">No downloads<br/>No waiting!</div>
     </div>
+    
   </div>
   <div data-layer="Frame 587" className="Frame587 w-[1290px] py-[120px] left-[315px] top-[1879px] absolute justify-between items-center inline-flex">
     <div data-layer="Frame 586" className="Frame586 w-[630px] flex-col justify-start items-start gap-10 inline-flex">
@@ -111,10 +101,20 @@ export const QrCode: React.FC = () => {
             <img data-layer="Union" className="Union w-[11.13px] h-[11.04px] left-[2.44px] top-[2.49px] absolute" src="https://via.placeholder.com/11x11" />
           </div>
         </div>
+        <div data-layer="Frame 640" className="Frame640 pt-[60px] pb-20 left-[788px] top-[3608px] absolute justify-start items-center gap-[5px] inline-flex">
+    <div data-layer="Frame 644" className="Frame644 h-[31px] justify-between items-center flex">
+      <div data-layer="Learn more about" className="LearnMoreAbout text-center text-[#080808] text-lg font-semibold font-['Roboto'] leading-[31px]">Learn more about </div>
+      <div data-layer="Frame 639" className="Frame639 justify-start items-center gap-[5px] flex">
+        <div data-layer="Embedding Flipbooks" className="EmbeddingFlipbooks text-center text-[#146ef5] text-lg font-semibold font-['Roboto'] leading-[31px]">Embedding Flipbooks</div>
+        <div data-layer="arrow-up" className="ArrowUp w-4 h-4 relative origin-top-left rotate-90  overflow-hidden">
+          <img data-layer="Union" className="Union w-[11.13px] h-[11.04px] left-[2.44px] top-[2.49px] absolute" src="https://via.placeholder.com/11x11" />
+        </div>
+      </div>
+    </div> </div>
       </div>
     </div>
 
-
+ 
 
     <img data-layer="image" className="Image w-[412px] h-[521px]" src={imageQr} />
   </div>
@@ -236,17 +236,7 @@ export const QrCode: React.FC = () => {
     <div data-layer="Frame 4" className="Frame4 w-[220px] h-8 px-[30px] bg-[#e8e8e8] rounded-[5px]" />
     <div data-layer="Frame 628" className="Frame628 w-[535px] h-8 px-[30px] bg-[#e8e8e8] rounded-[5px]" />
   </div>
-  <div data-layer="Frame 641" className="Frame641 h-[111px] pb-20 left-[748px] top-[1768px] absolute flex-col justify-start items-start gap-2.5 inline-flex">
-    <div data-layer="Frame 640" className="Frame640 self-stretch justify-start items-center gap-[5px] inline-flex">
-      <div data-layer="Learn more about" className="LearnMoreAbout text-center text-[#080808] text-lg font-semibold font-['Roboto'] leading-[31px]">Learn more about </div>
-      <div data-layer="Frame 639" className="Frame639 justify-start items-center gap-[5px] flex">
-        <div data-layer="Sharing with Direct Links" className="SharingWithDirectLinks text-center text-[#146ef5] text-lg font-semibold font-['Roboto'] leading-[31px]">Sharing with Direct Links</div>
-        <div data-layer="arrow-up" className="ArrowUp w-4 h-4 relative origin-top-left rotate-90  overflow-hidden">
-          <img data-layer="Union" className="Union w-[11.13px] h-[11.04px] left-[2.44px] top-[2.49px] absolute" src="https://via.placeholder.com/11x11" />
-        </div>
-      </div>
-    </div>
-  </div>
+
 
 
   <div data-layer="GIF" className="Gif left-[1735px] top-[401px] absolute text-[#ff0000] text-[32px] font-black font-['Urbanist']">GIF</div>

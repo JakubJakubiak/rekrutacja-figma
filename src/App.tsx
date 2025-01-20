@@ -8,6 +8,7 @@ import { Faq } from './components/Faq';
 import { PlusAndMinus } from './components/PlusAndMinus';
 import { Regulations } from './components/Regulations';
 import { QrCode } from './components/QrCode';
+import { BanerFooter } from './components/BanerFooter';
 
 function App() {
   return (
@@ -18,17 +19,18 @@ function App() {
             <Route path="/regulations" element={<Regulations />} />
             <Route path="/" element={
               <>
-               <Header /> 
+                <Header /> 
                 {/* <Hero /> */}
                 {/* <Flipbooks /> */}
                 <QrCode />
+                <BanerFooter />
                 
             
               </> 
             } />
           </Routes>
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
