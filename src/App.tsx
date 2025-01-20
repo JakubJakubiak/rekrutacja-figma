@@ -19,8 +19,8 @@ function App() {
             <Route path="/" element={
               <>
                <Header /> 
-                <Hero />
-                <Flipbooks />
+                {/* <Hero /> */}
+                {/* <Flipbooks /> */}
                 <QrCode />
                 
             
