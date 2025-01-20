@@ -7,28 +7,28 @@ import { Footer } from './components/Footer';
 import { Faq } from './components/Faq';
 import { PlusAndMinus } from './components/PlusAndMinus';
 import { Regulations } from './components/Regulations';
+import { QrCode } from './components/QrCode';
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
-        <main className="flex-grow   ">
+      <div className="">
+        <main className="   ">
           <Routes>
             <Route path="/regulations" element={<Regulations />} />
             <Route path="/" element={
               <>
-                <Header />
+               <Header /> 
                 <Hero />
                 <Flipbooks />
-                <Features />
+                <QrCode />
                 
-                <PlusAndMinus />
-                <Faq />
+            
               </> 
             } />
           </Routes>
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

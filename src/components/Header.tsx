@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "./NavLink";
 import publuu_logo_v2 from "../../public/publuu_logo_v2.svg";
-import Vector from "../../public/Vector.svg";
+import Flags from "../../public/Flags.svg";
 import chevronright from "../../public/chevronright.svg";
 // import LanguageSelector from "./flags";
 
@@ -72,7 +72,7 @@ export const Header: React.FC = () => {
         </div>
 
         <div className="inline-flex items-center gap-2.5 relative flex-[0_0_auto]">
-          <img className="relative w-8 h-[22px]" alt="Vector" src={Vector} />
+          <img className="relative w-8 h-[22px]" alt="Vector" src={Flags} />
 
           <div className="inline-flex items-center relative flex-[0_0_auto]">
             <div className="relative w-fit [font-family:'Roboto-SemiBold',Helvetica] font-semibold text-[#080808] text-base tracking-[0] leading-[normal] whitespace-nowrap">
