@@ -24,14 +24,16 @@ export const SvgHart: React.FC = () => {
           </span>
           <img className="w-[16px] h-[16px]" src={arrow} alt="Arrow" />
         </div>
-          </div>
+          </div> 
+          
+          <div data-layer="GIF" className=" flex left-[1500px] absolute text-[#ff0000] text-[32px] font-black font-['Urbanist']">GIF</div>
           <div className="flex-shrink-0">
+            
         <img
           className="w-[300px] lg:w-[412px] h-auto"
           src={imageQr}
           alt="Social Media Preview"
         />
-        <div data-layer="GIF" className=" flex left-[1500px] absolute text-[#ff0000] text-[32px] font-black font-['Urbanist']">GIF</div>
           </div>
         </section>
       </div>
@@ -39,17 +41,18 @@ export const SvgHart: React.FC = () => {
 
       <section id="flipbooks" className="py-10 flex flex-col items-center gap-10 px-6 lg:px-20 ">
 
-        <div className="text-center h-[283px]">
-          <h2 className="text-[#080808] text-4xl lg:text-6xl font-black font-['Urbanist'] leading-snug lg:leading-[70px] mb-6">
-            Embed Flipbook into Your Website
-          </h2>
-          <p className="text-[#080808] text-base lg:text-lg font-normal font-['Roboto'] leading-relaxed lg:leading-[31px] w-[594px] mx-auto">
-            Showcase your flipbooks right on your website with Publuu's embed feature! 
-            <br />It’s a simple way to keep your content front and center for your audience.
-            <br />
-            <strong>See the live demo below to see it in action!</strong>
-          </p>
-        </div>
+      <div className="text-center px-4 sm:px-6 max-w-4xl mx-auto py-8 sm:py-12">
+      <h2 className="text-[#080808] text-3xl sm:text-4xl lg:text-6xl font-black font-['Urbanist'] leading-tight sm:leading-snug lg:leading-[70px] mb-4 sm:mb-6">
+        Embed Flipbook into Your Website
+      </h2>
+      <p className="text-[#080808] text-sm sm:text-base lg:text-lg font-normal font-['Roboto'] leading-relaxed lg:leading-[31px] max-w-[594px] mx-auto">
+        Showcase your flipbooks right on your website with Publuu's embed feature!
+        <br className="hidden sm:block" />
+        It's a simple way to keep your content front and center for your audience.
+        <br />
+        <strong>See the live demo below to see it in action!</strong>
+      </p>
+    </div>
 
         <div className="flex flex-wrap justify-center items-center gap-6">
           <button className="w-[260px] px-[30px] py-[15px] bg-[#146ef5] text-white text-xl font-semibold font-['Roboto'] rounded-full">
