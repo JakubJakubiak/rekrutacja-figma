@@ -30,7 +30,6 @@ function App() {
                 <Flipbooks2 />
                 <Book />
                 </div>
-                <ShareQr />
                 {/* <Test /> */}
               
                 {/* <Flipbooks /> */}
@@ -39,6 +38,7 @@ function App() {
                 <div className=" bg-[#F2F2F2]">
                 <ListArticle />
                 </div>
+                <ShareQr />
               </> 
             } />
           </Routes>
