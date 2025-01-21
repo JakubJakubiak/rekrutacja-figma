@@ -22,7 +22,7 @@ export const ListArticle: React.FC = () => {
                             a link into the post to create an eye-catching preview. With a few
                             clicks, more people will see and interact with your content.
                         </p>
-                        {/* Learn more link */}
+
                         <div className="flex items-center gap-[5px]">
                             <span className="text-[#080808] text-lg font-semibold font-['Roboto']">
                                 Learn more about
@@ -31,7 +31,7 @@ export const ListArticle: React.FC = () => {
                                 Sharing on Social Media
                             </span>
                             <div >
-                            <img
+                                <img
                                     className="w-[16px] h-[16px]"
                                     src={arrow}
                                     alt="arrow"
@@ -52,7 +52,7 @@ export const ListArticle: React.FC = () => {
 
 
                 <section className="py-20 flex flex-col lg:flex-row items-center justify-between gap-10">
-                <div className="flex-shrink-0">
+                    <div className="flex-shrink-0">
                         <img
                             className="w-[440px] h-[559px]"
                             src={Emailimage}
@@ -61,20 +61,20 @@ export const ListArticle: React.FC = () => {
                     </div>
                     <div className="flex-1 max-w-[631px]">
                         <h2 className="text-[#080808] text-6xl font-black font-['Urbanist'] leading-[70px] mb-10">
-                        Send Flipbooks
-                        <br />via Email
+                            Send Flipbooks
+                            <br />via Email
                         </h2>
                         <div data-layer="No attachments needed!" className="NoAttachmentsNeeded w-[521px] text-[#080808] text-[40px] font-light font-['Roboto'] leading-[55px] pb-3">No attachments needed!</div>
                         <p className="text-[#080808] text-lg font-normal font-['Roboto'] leading-[31px] mb-10">
-                        Say goodbye to big email attachments! Just add your flipbooks’s direct link to an email or include its cover into the signature. Your customers can open it instantly with one simple click, no matter where they are.
+                            Say goodbye to big email attachments! Just add your flipbooks’s direct link to an email or include its cover into the signature. Your customers can open it instantly with one simple click, no matter where they are.
                         </p>
-                        {/* Learn more link */}
+
                         <div className="flex items-center gap-[5px]">
                             <span className="text-[#080808] text-lg font-semibold font-['Roboto']">
-                            Learn more about 
+                                Learn more about
                             </span>
                             <span className="text-[#146ef5] text-lg font-semibold font-['Roboto']">
-                            Sending Flipbooks via Email
+                                Sending Flipbooks via Email
                             </span>
                             <div>
                                 <img
@@ -86,31 +86,28 @@ export const ListArticle: React.FC = () => {
                         </div>
                     </div>
 
-
-
                     {/* 3 */}
-                    
 
                 </section>
 
                 <section className="py-20 flex flex-col lg:flex-row items-center justify-between gap-10">
                     <div className="flex-1 max-w-[631px]">
                         <h2 className="text-[#080808] text-6xl font-black font-['Urbanist'] leading-[70px] mb-10">
-                        Guide Readers <br />to a Specific Page
+                            Guide Readers <br />to a Specific Page
                         </h2>
                         <p className="text-[#080808] text-lg font-normal font-['Roboto'] leading-[31px] mb-10">
-                        Take your audience exactly where they need to go! With Publuu, you can create links to specific pages in your flipbook, guiding readers to key content and saving them time searching through the document.
+                            Take your audience exactly where they need to go! With Publuu, you can create links to specific pages in your flipbook, guiding readers to key content and saving them time searching through the document.
                         </p>
-                        {/* Learn more link */}
+
                         <div className="flex items-center gap-[5px]">
                             <span className="text-[#080808] text-lg font-semibold font-['Roboto']">
-                            Learn more about 
+                                Learn more about
                             </span>
                             <span className="text-[#146ef5] text-lg font-semibold font-['Roboto']">
-                            Guiding to Page
+                                Guiding to Page
                             </span>
                             <div>
-                            <img
+                                <img
                                     className="w-[16px] h-[16px]"
                                     src={arrow}
                                     alt="arrow"
@@ -126,7 +123,7 @@ export const ListArticle: React.FC = () => {
                         />
                     </div>
                 </section>
-             
+
             </div>
         </div>
     );

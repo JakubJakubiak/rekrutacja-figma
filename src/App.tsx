@@ -12,8 +12,8 @@ import { ListArticle } from './components/ListArticle';
 function App() {
   return (
     <Router>
-      <div className="">
-        <main className="   ">
+      <div>
+        <main >
           <Routes>
             <Route path="/regulations" element={<Regulations />} />
             <Route path="/" element={
@@ -24,11 +24,6 @@ function App() {
                 <Flipbooks2 />
                 <Book />
                 </div>
-                {/* <Test /> */}
-              
-                {/* <Flipbooks /> */}
-                {/* <QrCode /> */}
-                {/* <BanerFooter /> */}
                 <div className=" bg-[#F2F2F2]">
                 <ListArticle />
                 </div>
