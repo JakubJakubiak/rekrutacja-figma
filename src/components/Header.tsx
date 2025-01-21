@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "./NavLink";
 import publuu_logo_v2 from "../../public/publuu_logo_v2.svg";
 import Flags from "../../public/Flags.svg";
 import chevronright from "../../public/chevronright.svg";

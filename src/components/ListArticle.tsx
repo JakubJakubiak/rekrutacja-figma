@@ -1,15 +1,8 @@
 import React from "react";
-import book from "../../public/book.png";
-import imageQr from "../../public/imageQr.png";
-import Website from "../../public/Website.png";
-import timeroffoutline from "../../public/timeroffoutline.svg";
-import sharevariantoutline from "../../public/sharevariantoutline.svg";
-import image from "../../public/image.png";
 import Emailimage from "../../public/Emailimage.png";
 import AniamlMedia from "../../public/AniamlMedia.png";
 import Specificpng from "../../public/Specificpng.png";
-import CustomLink from "../../public/CustomLink.png";
-import Virtualimage from "../../public/Virtualimage.png";
+
 
 import arrow from "../../public/arrowup.svg";
 
