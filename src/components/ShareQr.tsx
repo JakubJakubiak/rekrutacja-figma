@@ -1,6 +1,7 @@
 import React from "react";
 import CustomLink from "../../public/CustomLink.png";
 import Virtualimage from "../../public/Virtualimage.png";
+import arrow from "../../public/arrowup.svg";
 
 export const ShareQr: React.FC = () => {
     return (
@@ -16,11 +17,19 @@ export const ShareQr: React.FC = () => {
                     </div>
                     <div className="flex justify-start items-center gap-[5px]">
                         <div className="flex justify-start items-center gap-[5px]">
-                            <div className="text-center text-[#080808] text-lg font-semibold font-['Roboto'] leading-[31px]">Learn more about </div>
-                            <div className="flex justify-start items-center gap-[5px]">
-                                <div className="text-[#146ef5] text-lg font-semibold font-['Roboto'] leading-[31px]">Sharing with Custom Link</div>
-                                <div className="w-4 h-4 relative origin-top-left rotate-90 overflow-hidden">
-                                    <img className="w-[11.13px] h-[11.04px] left-[2.44px] top-[2.49px] absolute" src="https://via.placeholder.com/11x11" />
+                            <div className="flex items-center gap-[5px]">
+                                <span className="text-[#080808] text-lg font-semibold font-['Roboto']">
+                                    Learn more about
+                                </span>
+                                <span className="text-[#146ef5] text-lg font-semibold font-['Roboto']">
+                                    Sharing with Custom Link
+                                </span>
+                                <div>
+                                    <img
+                                        className="w-[16px] h-[16px]"
+                                        src={arrow}
+                                        alt="arrow"
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -35,13 +44,19 @@ export const ShareQr: React.FC = () => {
                         </div>
                     </div>
                     <div className="flex justify-start items-center gap-[5px]">
-                        <div className="flex justify-start items-center gap-[5px]">
-                            <div className="text-center text-[#080808] text-lg font-semibold font-['Roboto'] leading-[31px]">Learn more about </div>
-                            <div className="flex justify-start items-center gap-[5px]">
-                                <div className="text-[#146ef5] text-lg font-semibold font-['Roboto'] leading-[31px]">Sending as Virtual Bookshelf</div>
-                                <div className="w-4 h-4 relative origin-top-left rotate-90 overflow-hidden">
-                                    <img className="w-[11.13px] h-[11.04px] left-[2.44px] top-[2.49px] absolute" src="https://via.placeholder.com/11x11" />
-                                </div>
+                        <div className="flex items-center gap-[5px]">
+                            <span className="text-[#080808] text-lg font-semibold font-['Roboto']">
+                                Learn more about
+                            </span>
+                            <span className="text-[#146ef5] text-lg font-semibold font-['Roboto']">
+                                Sending as Virtual Bookshelf
+                            </span>
+                            <div>
+                                <img
+                                    className="w-[16px] h-[16px]"
+                                    src={arrow}
+                                    alt="arrow"
+                                />
                             </div>
                         </div>
                     </div>
