@@ -53,7 +53,23 @@ export const ShareQr: React.FC = () => {
               Showcase your flipbooks right on your website with Publuu's embed feature! It's a simple way to keep your content front and center for your audience.
               <strong>See the live demo below to see it in action!</strong>
             </p>
+
           </div>
+
+          <div className="flex justify-center gap-8 mb-10">
+            <div className="w-[260px] px-[30px] py-[15px] bg-[#146ef5] rounded-[50px] flex justify-center items-center">
+              <div className="text-white text-xl font-semibold font-['Roboto']">With a background</div>
+            </div>
+            <div className="w-[260px] px-[30px] py-[15px] rounded-[50px] border border-[#c0c0c0] flex justify-center items-center">
+              <div className="text-[#080808] text-xl font-semibold font-['Roboto']">Without a background</div>
+            </div>
+            <div className="w-[260px] px-[30px] py-[15px] rounded-[50px] border border-[#c0c0c0] flex justify-center items-center">
+              <div className="text-[#080808] text-xl font-semibold font-['Roboto']">As a clickable button</div>
+            </div>
+          </div>
+
+
+
 
           <div className="bg-[#e8e8e8] rounded-[10px] p-8">
             <div className="flex flex-col lg:flex-row gap-8">
@@ -74,12 +90,7 @@ export const ShareQr: React.FC = () => {
           </div>
         </section>
 
-        {/* Social Media Section */}
-     
-
-        {/* Additional sections follow the same pattern... */}
-        {/* You can continue with Email, Specific Page, Custom Link, and Virtual Bookshelf sections 
-            using the same flex-based layout structure */}
+      
       </div>
     </div>
   );
