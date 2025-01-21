@@ -2,7 +2,9 @@ import React from "react";
 
 export const BanerFooter: React.FC = () => {
   return (
-    <section className="bg-[#080808]">
+    <section
+      className="bg-gradient-to-b from-[#0a1d3a] via-[#08254a] to-[#080808]"
+    >
       <div
         data-layer="Frame 562"
         className="Frame562 w-full max-w-[1290px] h-[528px] py-40 flex flex-col justify-center items-center gap-[60px] mx-auto px-4"
