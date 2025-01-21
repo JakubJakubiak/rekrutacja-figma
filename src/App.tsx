@@ -13,6 +13,7 @@ import { Flipbooks2 } from './components/Flipbooks2';
 import { Test } from './components/test';
 import { Book } from './components/Book';
 import { ShareQr } from './components/ShareQr';
+import { ListArticle } from './components/ListArticle';
 
 function App() {
   return (
@@ -33,10 +34,11 @@ function App() {
                 {/* <Test /> */}
               
                 {/* <Flipbooks /> */}
-                <QrCode />
+                {/* <QrCode /> */}
                 {/* <BanerFooter /> */}
-                
-            
+                <div className=" bg-[#F2F2F2]">
+                <ListArticle />
+                </div>
               </> 
             } />
           </Routes>
