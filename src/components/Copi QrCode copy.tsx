@@ -61,7 +61,14 @@ export const QrCode: React.FC = () => {
   <div data-layer="Frame 590" className="Frame590 w-[260px] px-[30px] py-[15px] left-[1125px] top-[2923px] absolute rounded-[50px] border border-[#c0c0c0] justify-center items-center gap-2.5 inline-flex">
     <div data-layer="As a clickable button" className="AsAClickableButton text-[#080808] text-xl font-semibold font-['Roboto']">As a clickable button</div>
   </div>
-
+  <div data-layer="Frame 643" className="Frame643 w-[1290px] pb-[60px] left-[315px] top-[129px] absolute justify-between items-center inline-flex">
+    <div data-layer="Frame 642" className="Frame642 w-[627px] flex-col justify-start items-start gap-10 inline-flex">
+      <div data-layer="Sharing Your Flipbooks" className="SharingYourFlipbooks self-stretch text-[#080808] text-6xl font-black font-['Urbanist'] leading-[70px]">Sharing Your Flipbooks</div>
+      <div data-layer="Sharing your digital publications is easy with Publuu. Whether it’s a portfolio, a client catalog, or an online magazine, we give you the tools to make it quick and simple. No matter the purpose, we've got everything you need" className="SharingYourDigitalPublicationsIsEasyWithPubluuWhetherItSAPortfolioAClientCatalogOrAnOnlineMagazineWeGiveYouTheToolsToMakeItQuickAndSimpleNoMatterThePurposeWeVeGotEverythingYouNeed w-[518px] text-[#080808] text-lg font-normal font-['Roboto'] leading-[31px]">Sharing your digital publications is easy with Publuu. Whether it’s a portfolio, a client catalog, or an online magazine, we give you the tools to make it quick and simple. No matter the purpose, we've got everything you need</div>
+    </div>
+    <img data-layer="image" className="Image w-[627px] h-[597px] rounded-[10px]" src=
+    {image} />
+  </div>
   <img data-layer="share1 1" className="Share11 w-[841px] h-[445px] left-[539px] top-[1273px] absolute" src={book}/>
   <div data-layer="Frame 577" className="Frame577 w-[300px] h-20 pl-[15px] pr-5 py-[15px] left-[1206px] top-[1495px] absolute bg-white rounded-[10px] shadow-[0px_10px_10px_0px_rgba(0,0,0,0.25)] flex-col justify-center items-center gap-2.5 inline-flex">
     <div data-layer="Frame 574" className="Frame574 justify-start items-center  inline-flex">

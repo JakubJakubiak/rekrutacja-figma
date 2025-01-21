@@ -23,6 +23,7 @@ export const Hero: React.FC = () => {
         alt="Image"
         src={image}
       />
+      <div data-layer="GIF" className="Gif left-[1500px] top-[300px] absolute text-[#ff0000] text-[32px] font-black font-['Urbanist']">GIF</div>
     </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Header } from './components/Header';
+import {  Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { Flipbooks } from './components/Flipbooks';
@@ -9,6 +9,9 @@ import { PlusAndMinus } from './components/PlusAndMinus';
 import { Regulations } from './components/Regulations';
 import { QrCode } from './components/QrCode';
 import { BanerFooter } from './components/BanerFooter';
+import { Flipbooks2 } from './components/Flipbooks2';
+import { Test } from './components/test';
+import { Book } from './components/Book';
 
 function App() {
   return (
@@ -20,17 +23,23 @@ function App() {
             <Route path="/" element={
               <>
                 <Header /> 
-                {/* <Hero /> */}
+                <Hero /> 
+                <div className=" bg-[#F2F2F2]">
+                <Flipbooks2 />
+                <Book />
+                </div>
+                {/* <Test /> */}
+              
                 {/* <Flipbooks /> */}
-                <QrCode />
-                <BanerFooter />
+                {/* <QrCode /> */}
+                {/* <BanerFooter /> */}
                 
             
               </> 
             } />
           </Routes>
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
