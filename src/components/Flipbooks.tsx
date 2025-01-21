@@ -1,8 +1,6 @@
 import React from "react";
 import book from "../../public/book.png";
 import arrowup from "../../public/arrowup.svg";
-import timeroffoutline from "../../public/timeroffoutline.svg";
-import sharevariantoutline from "../../public/sharevariantoutline.svg";
 
 export const Flipbooks: React.FC = () => {
   return (
