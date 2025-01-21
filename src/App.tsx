@@ -39,11 +39,12 @@ function App() {
                 <ListArticle />
                 </div>
                 <ShareQr />
+                <BanerFooter /> 
               </> 
             } />
           </Routes>
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
