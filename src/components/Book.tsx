@@ -47,12 +47,12 @@ export const Book: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-full flex justify-center items-center gap-[5px] mb-[300px]">
-          <div className="text-center text-[#080808] text-lg font-semibold font-['Roboto'] leading-[31px]">
+        <div className="w-full flex justify-center items-center gap-[5px] mb-[300px] ">
+          <div className="text-center text-[#080808] text-lg font-semibold font-['Roboto'] leading-[31px] text-[18px]">
             Learn more about
           </div>
           <div className="flex justify-center items-center gap-[5px]">
-            <div className="text-center text-[#146ef5] text-lg font-semibold font-['Roboto'] leading-[31px]">
+            <div className="text-center text-[#146ef5] text-lg font-semibold font-['Roboto'] leading-[31px] text-[18px]">
               Sharing with Direct Links
             </div>
             <div className=" relative origin-top-left  overflow-hidden">

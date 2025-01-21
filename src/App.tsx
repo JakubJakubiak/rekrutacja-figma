@@ -12,6 +12,7 @@ import { BanerFooter } from './components/BanerFooter';
 import { Flipbooks2 } from './components/Flipbooks2';
 import { Test } from './components/test';
 import { Book } from './components/Book';
+import { ShareQr } from './components/ShareQr';
 
 function App() {
   return (
@@ -28,10 +29,11 @@ function App() {
                 <Flipbooks2 />
                 <Book />
                 </div>
+                <ShareQr />
                 {/* <Test /> */}
               
                 {/* <Flipbooks /> */}
-                {/* <QrCode /> */}
+                <QrCode />
                 {/* <BanerFooter /> */}
                 
             
