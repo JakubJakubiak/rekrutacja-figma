@@ -27,11 +27,7 @@ function App() {
                 <Book />
                 </div>
                 <SvgHart />
-                {/* <Test /> */}
             
-                
-                {/* <QrCode /> */}
-                {/* <BanerFooter /> */}
                 <div className=" bg-[#F2F2F2]">
                 <ListArticle />
                 </div>
